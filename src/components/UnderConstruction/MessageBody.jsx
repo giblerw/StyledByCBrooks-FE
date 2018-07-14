@@ -7,8 +7,7 @@ class MessageBody extends Component {
     return (
       <div>
         <div id="message-body" class='message-body-comp'>
-          <h2>For now, to learn more click any of the links below.
-          </h2>
+          <h2>To learn more, click any of the links below.</h2>
         </div>
         <SocialLinks />
         <footer class='footer-message'>

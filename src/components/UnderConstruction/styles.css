@@ -1,3 +1,4 @@
+
 body {
   background-color: black;
 };
@@ -27,24 +28,28 @@ body {
 .title-message-comp {
   margin-bottom: 2%;
   padding: 2%;
-  background-color: green;
+  background-color: rgba(25,25,25,.6);
+  color: rgba(235,235,235,.7);
 }
 
 .message-body-comp {
-  background-color: blue;
+  background-color: rgba(25,25,25,.6);
+  color: rgba(235,235,235,.7);
   margin-top: 25%;
   padding: 30px;
   margin-bottom: 15%;
 }
 
 .footer-message {
-  background-color: yellow;
+  background-color: rgba(25,25,25,.6);
+  color: rgba(235,235,235,.7);
   margin-top: 15%;
   padding: 30px;
 }
 
 .btn-group {
-  background-color: orange;
+  background-color: rgba(25,25,25,.6);
+  color: rgba(235,235,235,.7);
   width: 100%;
   padding-left: 50%;
 }
