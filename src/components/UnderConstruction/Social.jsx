@@ -5,14 +5,14 @@ class SocialLinks extends Component {
   render () {
     return (
       <ButtonGroup>
-        <button type="button" class="btn btn-primary btn-lg btn-block">
-        Block level button
+        <button type="button" class="btn btn-primary btn-lg">
+        <h4>Insta</h4>
         </button>
-        <button type="button" class="btn btn-primary btn-lg btn-block">
-        Block level button
+        <button type="button" class="btn btn-primary btn-lg">
+        <h4>Book</h4>
         </button>
-        <button type="button" class="btn btn-primary btn-lg btn-block">
-        Block level button
+        <button type="button" class="btn btn-primary btn-lg">
+        <h4>email</h4>
         </button>
       </ButtonGroup>
     )

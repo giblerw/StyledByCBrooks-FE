@@ -33,12 +33,23 @@ body {
 .message-body-comp {
   background-color: blue;
   margin-top: 25%;
+  padding: 30px;
+  margin-bottom: 15%;
 }
 
 .footer-message {
   background-color: yellow;
+  margin-top: 15%;
+  padding: 30px;
 }
 
 .btn-group {
   background-color: orange;
+  width: 100%;
+  padding-left: 50%;
+}
+
+.btn {
+margin:25px;
+border-radius: 20px;
 }

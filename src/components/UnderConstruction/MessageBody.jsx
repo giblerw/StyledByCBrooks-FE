@@ -7,14 +7,14 @@ class MessageBody extends Component {
     return (
       <div>
         <div id="message-body" class='message-body-comp'>
-          <h3>In the interim, you can find me by clicking any of my other media linkes below.
-          </h3>
+          <h2>For now, to learn more click any of the links below.
+          </h2>
         </div>
         <SocialLinks />
         <footer class='footer-message'>
-          <h4>Thanks for your interest.<br />
-          Check back soon!
-          </h4>
+          <h2>Check back soon for updates...<br />
+
+          </h2>
         </footer>
       </div>
     )
