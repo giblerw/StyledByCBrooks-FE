@@ -1,15 +1,44 @@
 body {
-  background-image: url('../../imageAssets/BWbrick.png');
+  background-color: black;
+};
+
+#message-body {
+  margin-left: 5%;
+  background-color: black;
+}
+
+.App {
+  background-image: url('../../imageAssets/FullSizeLogo.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-};
+  min-height: 1000px;
+  margin: 0px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
-/* #under_construction-banner {
-  margin-top: 15%;
-} */
-#message-body {
-  margin-left: 5%;
+.banner-element {
+  text-align: center;
+  margin-top: 34%;
+}
 
+.title-message-comp {
+  margin-bottom: 2%;
+  padding: 2%;
+  background-color: green;
+}
+
+.message-body-comp {
+  background-color: blue;
+  margin-top: 25%;
+}
+
+.footer-message {
+  background-color: yellow;
+}
+
+.btn-group {
+  background-color: orange;
 }

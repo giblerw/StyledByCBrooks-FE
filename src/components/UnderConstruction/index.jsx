@@ -7,7 +7,7 @@ import './styles.css';
 class UnderConstructionPage extends Component {
   render() {
     return (
-        <Banner id='under_construction-banner' />
+        <Banner class='under_construction-banner' />
     )
   }
 }

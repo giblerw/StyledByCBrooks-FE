@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Jumbotron } from 'react-bootstrap';
+// import { Jumbotron } from 'react-bootstrap';
 
 import MessageBody from './MessageBody';
 import TitleMessage from './Title';
@@ -7,10 +7,10 @@ import TitleMessage from './Title';
 class Banner extends Component {
   render(){
     return (
-      <Jumbotron>
+      <div class='banner-element'>
         <TitleMessage />
         <MessageBody />
-      </Jumbotron>
+      </div>
     )
   }
 };
